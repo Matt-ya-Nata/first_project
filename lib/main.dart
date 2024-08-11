@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 
-  print(9%4);
+  print(9==9);
 }
 
 
@@ -22,7 +22,18 @@ class MyApp extends StatelessWidget {
   3 * 2 => 6, multiply
   8 / 2 => 4, divide
   9 % 4 => 1,remainder
+
+  Comparison Operators
+  5 == 5 -> true, EQUAL TO
+  2 != 3 -> true, NOT EQUAL TO
+  3 > 2 -> true, GREATER THAN
+  3 < 2 -> false, LESS THAN
+  5 >= 5 -> true, GREATER THAN OR EQUAL TO
+  3 <= 7 -> true, LESS THAN OR EQUAL TO
+
    */
+
+
 
   @override
   Widget build(BuildContext context) {
