@@ -42,13 +42,36 @@ class MyApp extends StatelessWidget {
   Not operator ,returns the opposite value
   !isBeginer -> return False
 
+  Control Flow
+  if (condition){
+  do something
+  }
+
+  if (condition) {
+  do something
+  } else if (another condition) {
+  do something else
+  }
+
+  if (condition) {
+  do something
+  } else {
+  do something else
+  }
+
+
+
    */
 
 
 
   @override
   Widget build(BuildContext context) {
-    print(!isBeginner || (age<18));
+    if (age >= 18) {
+      print("You are an Adult");
+    } else{
+      print("You are not an adult");}
+
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
